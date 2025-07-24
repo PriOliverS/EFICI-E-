@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <Zap className="h-8 w-8 text-emerald-400" />
+              <Zap className="h-8 w-8 text-indigo-400" />
               <span className="text-2xl font-bold">Efici-E</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -17,12 +17,13 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors duration-200">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors duration-200">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors duration-200">
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
@@ -57,20 +58,20 @@ export const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-6">Contato</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <Phone className="h-5 w-5 text-emerald-400 mt-0.5 flex-shrink-0" />
+                <Phone className="h-5 w-5 text-indigo-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400">(11) 9999-8888</p>
                   <p className="text-gray-400">(11) 3333-4444</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-emerald-400 mt-0.5 flex-shrink-0" />
+                <Mail className="h-5 w-5 text-indigo-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400">contato@efici-e.com.br</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-emerald-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-indigo-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400">Av. Paulista, 1000 - Sala 500</p>
                   <p className="text-gray-400">São Paulo, SP - 01310-100</p>

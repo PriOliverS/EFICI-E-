@@ -8,7 +8,7 @@ export const Vision: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Nossa <span className="text-emerald-600">Visão</span>
+            Nossa <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">Visão</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Construindo o futuro da gestão secretarial com propósito, direção e impacto global.
@@ -19,7 +19,7 @@ export const Vision: React.FC = () => {
           {/* Vision Content */}
           <div className="space-y-8">
             <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-              <Eye className="h-8 w-8 text-emerald-600 mt-1 flex-shrink-0" />
+              <Eye className="h-8 w-8 text-indigo-500 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Visão de Futuro</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -29,7 +29,7 @@ export const Vision: React.FC = () => {
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-              <Target className="h-8 w-8 text-blue-600 mt-1 flex-shrink-0" />
+              <Target className="h-8 w-8 text-purple-600 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Objetivos Estratégicos</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -40,7 +40,7 @@ export const Vision: React.FC = () => {
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-              <Compass className="h-8 w-8 text-purple-600 mt-1 flex-shrink-0" />
+              <Compass className="h-8 w-8 text-blue-600 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Direcionamento</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -51,7 +51,7 @@ export const Vision: React.FC = () => {
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-              <Globe className="h-8 w-8 text-green-600 mt-1 flex-shrink-0" />
+              <Globe className="h-8 w-8 text-emerald-600 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Impacto Global</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -79,6 +79,7 @@ export const Vision: React.FC = () => {
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-emerald-600 to-blue-600 p-6 rounded-2xl text-white shadow-lg">
+            <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-indigo-500 to-purple-600 p-6 rounded-2xl text-white shadow-lg">
               <div className="text-center">
                 <div className="text-3xl font-bold mb-1">2030</div>
                 <div className="text-sm opacity-90">Meta acessorial</div>

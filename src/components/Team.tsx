@@ -39,7 +39,7 @@ export const Team: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Nosso <span className="text-emerald-600">Time</span>
+            Nosso <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">Time</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Profissionais altamente qualificados e apaixonados por inovação e gestão secretarial, 
@@ -77,7 +77,7 @@ export const Team: React.FC = () => {
               {/* Content */}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-emerald-600 font-semibold mb-3">{member.position}</p>
+                <p className="text-indigo-500 font-semibold mb-3">{member.position}</p>
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">{member.bio}</p>
 
                 {/* Specialties */}
@@ -85,7 +85,7 @@ export const Team: React.FC = () => {
                   {member.specialties.map((specialty, specialtyIndex) => (
                     <span
                       key={specialtyIndex}
-                      className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-xs font-medium"
+                      className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-xs font-medium"
                     >
                       {specialty}
                     </span>
@@ -98,6 +98,7 @@ export const Team: React.FC = () => {
 
         {/* Team Stats */}
         <div className="bg-gradient-to-r from-emerald-600 to-blue-600 rounded-3xl p-8 md:p-12 text-white">
+        <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl p-8 md:p-12 text-white">
           <div className="text-center mb-8">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">Nossa Equipe em Números</h3>
             <p className="text-xl opacity-90">Profissionais qualificados fazendo a diferença</p>

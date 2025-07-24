@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => 
             onClick={() => handlePageChange('inicio')}
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-200"
           >
-            <Zap className="h-8 w-8 text-emerald-600" />
+            <Zap className="h-8 w-8 text-indigo-500" />
             <span className="text-xl font-bold text-gray-900">Efici-E</span>
           </button>
 
@@ -47,8 +47,8 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => 
                 onClick={() => handlePageChange(item.id)}
                 className={`transition-colors duration-200 font-medium px-3 py-2 rounded-lg ${
                   currentPage === item.id
-                    ? 'text-emerald-600 bg-emerald-50'
-                    : 'text-gray-700 hover:text-emerald-600 hover:bg-emerald-50'
+                    ? 'text-indigo-500 bg-indigo-50'
+                    : 'text-gray-700 hover:text-indigo-500 hover:bg-indigo-50'
                 }`}
               >
                 {item.label}
@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => 
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-emerald-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-indigo-500 transition-colors duration-200"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -77,8 +77,8 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => 
                   onClick={() => handlePageChange(item.id)}
                   className={`block w-full text-left px-3 py-2 rounded-md transition-colors duration-200 ${
                     currentPage === item.id
-                      ? 'text-emerald-600 bg-emerald-50'
-                      : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
+                      ? 'text-indigo-500 bg-indigo-50'
+                      : 'text-gray-700 hover:text-indigo-500 hover:bg-gray-50'
                   }`}
                 >
                   {item.label}

@@ -8,7 +8,7 @@ export const About: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Sobre o <span className="text-emerald-600">Efici-E</span>
+            Sobre o <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">Efici-E</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Somos pioneiros em soluções de eficiência energética, comprometidos em transformar 
@@ -31,11 +31,12 @@ export const About: React.FC = () => {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-emerald-50 rounded-2xl">
-                <div className="text-3xl font-bold text-emerald-600 mb-2">100+</div>
+              <div className="text-center p-6 bg-indigo-50 rounded-2xl">
+                <div className="text-3xl font-bold text-indigo-500 mb-2">100+</div>
                 <div className="text-sm text-gray-600">Clientes Atendidos</div>
               </div>
-              <div className="text-center p-6 bg-blue-50 rounded-2xl">
-                <div className="text-3xl font-bold text-blue-600 mb-2">40%</div>
+              <div className="text-center p-6 bg-purple-50 rounded-2xl">
+                <div className="text-3xl font-bold text-purple-600 mb-2">40%</div>
                 <div className="text-sm text-gray-600">Redução Média</div>
               </div>
             </div>
@@ -61,8 +62,8 @@ export const About: React.FC = () => {
 
         {/* Values */}
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center p-8 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
-            <Target className="h-16 w-16 text-emerald-600 mx-auto mb-4" />
+          <div className="text-center p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
+            <Target className="h-16 w-16 text-indigo-500 mx-auto mb-4" />
             <h4 className="text-xl font-bold text-gray-900 mb-3">Precisão</h4>
             <p className="text-gray-600 leading-relaxed">
               Análises detalhadas e métricas precisas para identificar oportunidades 
@@ -70,8 +71,8 @@ export const About: React.FC = () => {
             </p>
           </div>
 
-          <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
-            <Users className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+          <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
+            <Users className="h-16 w-16 text-purple-600 mx-auto mb-4" />
             <h4 className="text-xl font-bold text-gray-900 mb-3">Parceria</h4>
             <p className="text-gray-600 leading-relaxed">
               Trabalhamos lado a lado com nossos clientes para garantir 

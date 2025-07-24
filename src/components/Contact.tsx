@@ -29,7 +29,7 @@ export const Contact: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Entre em <span className="text-emerald-600">Contato</span>
+            Entre em <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">Contato</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Pronto para transformar sua eficiência energética? Nossa equipe está aqui para 
@@ -56,6 +56,7 @@ export const Contact: React.FC = () => {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-200"
                     placeholder="Seu nome"
                   />
                 </div>
@@ -71,6 +72,7 @@ export const Contact: React.FC = () => {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-200"
                     placeholder="seu@email.com"
                   />
                 </div>
@@ -87,6 +89,7 @@ export const Contact: React.FC = () => {
                   value={formData.company}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent transition-all duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-200"
                   placeholder="Nome da sua empresa"
                 />
               </div>
@@ -103,13 +106,14 @@ export const Contact: React.FC = () => {
                   required
                   rows={5}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent transition-all duration-200 resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-200 resize-none"
                   placeholder="Conte-nos sobre seu projeto e necessidades..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-emerald-700 transition-colors duration-200 flex items-center justify-center space-x-2 group"
+                className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all duration-200 flex items-center justify-center space-x-2 group"
               >
                 <span>Enviar Mensagem</span>
                 <Send className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
@@ -130,7 +134,7 @@ export const Contact: React.FC = () => {
             {/* Contact Cards */}
             <div className="space-y-6">
               <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                <Phone className="h-6 w-6 text-emerald-600 mt-1 flex-shrink-0" />
+                <Phone className="h-6 w-6 text-indigo-500 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Telefone</h4>
                   <p className="text-gray-600">(11) 9999-8888</p>
@@ -139,7 +143,7 @@ export const Contact: React.FC = () => {
               </div>
 
               <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                <Mail className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
+                <Mail className="h-6 w-6 text-purple-600 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
                   <p className="text-gray-600">contato@efici-e.com.br</p>
@@ -148,7 +152,7 @@ export const Contact: React.FC = () => {
               </div>
 
               <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                <MapPin className="h-6 w-6 text-purple-600 mt-1 flex-shrink-0" />
+                <MapPin className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Endereço</h4>
                   <p className="text-gray-600">Av. Paulista, 1000 - Sala 500</p>
@@ -168,11 +172,13 @@ export const Contact: React.FC = () => {
 
             {/* CTA */}
             <div className="bg-gradient-to-r from-emerald-600 to-blue-600 p-6 rounded-xl text-white">
+            <div className="bg-gradient-to-r from-indigo-500 to-purple-600 p-6 rounded-xl text-white">
               <h4 className="text-xl font-bold mb-2">Atendimento Especializado</h4>
               <p className="mb-4 opacity-90">
                 Agende uma consultoria gratuita e descubra como podemos otimizar sua eficiência energética.
               </p>
               <button className="bg-white text-emerald-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+              <button className="bg-white text-indigo-500 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                 Agendar Consultoria
               </button>
             </div>
