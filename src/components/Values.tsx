@@ -6,7 +6,7 @@ export const Values: React.FC = () => {
     {
       icon: <Heart className="h-12 w-12 text-red-500" />,
       title: "Compromisso",
-      description: "Dedicação total aos nossos clientes e ao meio ambiente, buscando sempre superar expectativas."
+      description: "Dedicação total aos nossos clientes, buscando sempre superar expectativas."
     },
     {
       icon: <Shield className="h-12 w-12 text-blue-600" />,
@@ -30,8 +30,8 @@ export const Values: React.FC = () => {
     },
     {
       icon: <Zap className="h-12 w-12 text-emerald-600" />,
-      title: "Sustentabilidade",
-      description: "Compromisso com o futuro do planeta através de soluções eco-eficientes."
+      title: "Diferencial",
+      description: "Compromisso com o futuro da sua empresa, escolha o profissional que mais se adequa ás suas necessidades."
     }
   ];
 
