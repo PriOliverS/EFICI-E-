@@ -5,40 +5,30 @@ export const Services: React.FC = () => {
   const services = [
     {
       icon: <BarChart3 className="h-12 w-12 text-emerald-600" />,
-      title: "financeiro",
+      title: "Financeiro",
       description: "Análise completa do consumo energético para identificar oportunidades de economia e otimização.",
       features: ["Relatórios detalhados", "Métricas precisas", "Plano de ação"]
     },
     {
       icon: <Settings className="h-12 w-12 text-blue-600" />,
-      title: "Automação Inteligente",
+      title: "Recursos Humanos",
       description: "Sistemas automatizados que otimizam o uso de energia em tempo real baseado em padrões de consumo.",
       features: ["Controle automático", "Aprendizado de máquina", "Interface intuitiva"]
     },
     {
       icon: <Smartphone className="h-12 w-12 text-purple-600" />,
-      title: "Monitoramento Remoto",
+      title: "Logística",
       description: "Acompanhamento 24/7 através de aplicativo móvel com alertas e relatórios em tempo real.",
       features: ["App móvel", "Alertas instantâneos", "Dashboard completo"]
     },
     {
       icon: <Battery className="h-12 w-12 text-green-600" />,
-      title: "Energia Renovável",
-      description: "Implementação de soluções sustentáveis como painéis solares e sistemas de armazenamento.",
+      title: "Marketing",
+      description: "Implementação de soluções inovadoras como  sistemas de armazenamento.",
       features: ["Painéis solares", "Baterias inteligentes", "Grid tie"]
     },
-    {
-      icon: <Shield className="h-12 w-12 text-red-600" />,
-      title: "Gestão de Riscos",
-      description: "Proteção contra falhas elétricas e otimização da estabilidade do sistema energético.",
-      features: ["Proteção elétrica", "Backup automático", "Manutenção preventiva"]
-    },
-    {
-      icon: <Cpu className="h-12 w-12 text-indigo-600" />,
-      title: "IoT & Sensores",
-      description: "Rede de sensores inteligentes para coleta de dados precisos e controle automatizado.",
-      features: ["Sensores IoT", "Coleta automática", "Análise preditiva"]
-    }
+   
+    
   ];
 
   return (
@@ -50,8 +40,8 @@ export const Services: React.FC = () => {
             Nossos <span className="text-emerald-600">Serviços</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Oferecemos uma gama completa de soluções para maximizar a eficiência energética 
-            e promover a sustentabilidade em sua organização.
+            Oferecemos uma gama completa de soluções para maximizar a produtividade e gestão do seu negócio
+            e promover a maximização da sua organização.
           </p>
         </div>
 
