@@ -13,8 +13,7 @@ export const Footer: React.FC = () => {
               <span className="text-2xl font-bold">Efici-E</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transformando o futuro através da eficiência energética e sustentabilidade. 
-              Soluções inovadoras para um mundo melhor.
+              A gente organiza, você cresce.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors duration-200">
@@ -33,9 +32,9 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6">Serviços</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Auditoria Energética</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Automação Inteligente</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Energia Renovável</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Suporte</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Acessoria</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">planos</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Monitoramento 24/7</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Consultoria</a></li>
             </ul>
