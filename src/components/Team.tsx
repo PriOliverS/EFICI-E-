@@ -5,30 +5,30 @@ export const Team: React.FC = () => {
   const teamMembers = [
     {
       name: "Alana Alves",
-      position: "Secretário Executivo",
+      position: "Secretário Executivo - Recursos humanos",
       image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000000-c22f2c22f4/alana.jpeg?ph=f6f3b31670",
-      bio: "Especialista em gestão administrativa e coordenação de projetos de eficiência energética",
+      bio: "Especialista em gestão administrativa e coordenação de projetos e recrutamento",
       specialties: ["Gestão", "Coordenação", "Administração"]
     },
     {
       name: "Luiz Felipe",
-      position: "Secretário Executivo",
+      position: "Secretário Executivo - Financeiro",
       image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000002-a230fa2313/luiz.jpeg?ph=f6f3b31670",
-      bio: "Responsável pela organização e execução de processos administrativos e documentação",
+      bio: "Responsável pela organização e execução de processos administrativos e documentação financeira",
       specialties: ["Documentação", "Processos", "Organização"]
     },
     {
       name: "Vitória Pitre",
-      position: "Secretário Executivo",
+      position: "Secretário Executivo - Logística",
       image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000016-2216e22170/IMG_7124.jpeg?ph=f6f3b31670",
-      bio: "Especialista em atendimento ao cliente e suporte administrativo executivo",
+      bio: "Especialista em atendimento ao cliente e suporte administrativo executivo responsável pela organização da logística",
       specialties: ["Atendimento", "Suporte", "Relacionamento"]
     },
     {
-      name: "Priscila Soares",
+      name: "Priscila Soares - Marketing",
       position: "Secretário Executivo",
       image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000004-955f6955f8/Captura%20de%20Tela%20%28157%29.png?ph=f6f3b31670",
-      bio: "Coordenadora de agenda executiva e gestão de comunicações internas",
+      bio: "Coordenadora de agenda executiva e gestão de comunicações internas e marketing",
       specialties: ["Agenda", "Comunicação", "Coordenação"]
     }
   ];
@@ -42,8 +42,8 @@ export const Team: React.FC = () => {
             Nosso <span className="text-emerald-600">Time</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Profissionais altamente qualificados e apaixonados por sustentabilidade, 
-            unidos pela missão de transformar o futuro energético.
+            Profissionais altamente qualificados e apaixonados por inovação e gestão secretarial, 
+            unidos pela missão de transformar o futuro da sua empresa.
           </p>
         </div>
 
