@@ -31,15 +31,18 @@ export const Hero: React.FC = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600"> Eficácia</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-4xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
             Conectando estratégia à execução, ponto a ponto.
             </p>
             
             <p className="text-3xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
            Vamos revelar a melhor estratégia para sua empresa. 
-              Sua gestão, mais inteligente.
+              
             </p>
 
+            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              Sua gestão, mais inteligente.
+                  </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <button
                 onClick={() => document.getElementById('projetos')?.scrollIntoView({ behavior: 'smooth' })}
