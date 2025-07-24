@@ -5,7 +5,7 @@ export const Services: React.FC = () => {
   const services = [
     {
       icon: <BarChart3 className="h-12 w-12 text-emerald-600" />,
-      title: "Auditoria Energética",
+      title: "financeiro",
       description: "Análise completa do consumo energético para identificar oportunidades de economia e otimização.",
       features: ["Relatórios detalhados", "Métricas precisas", "Plano de ação"]
     },
