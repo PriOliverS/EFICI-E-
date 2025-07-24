@@ -40,9 +40,7 @@ export const Hero: React.FC = () => {
               
             </p>
 
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Sua gestão, mais inteligente.
-                  </p>
+    
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <button
                 onClick={() => document.getElementById('projetos')?.scrollIntoView({ behavior: 'smooth' })}
