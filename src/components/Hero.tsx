@@ -23,17 +23,21 @@ export const Hero: React.FC = () => {
           <div className="text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start space-x-2 mb-6">
               <Leaf className="h-6 w-6 text-emerald-600" />
-              <span className="text-emerald-600 font-semibold">Sustentabilidade & Inovação</span>
+              <span className="text-emerald-600 font-semibold">Sua gestão, mais inteligente.</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Eficiência
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600"> Energética</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600"> Eficácia</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Soluções inovadoras para um futuro sustentável. Transformamos energia em oportunidades, 
-              reduzindo custos e impacto ambiental através de tecnologias inteligentes.
+            Conectando estratégia à execução, ponto a ponto.
+            </p>
+            
+            <p className="text-3xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+           Vamos revelar a melhor estratégia para sua empresa. 
+              Sua gestão, mais inteligente.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
